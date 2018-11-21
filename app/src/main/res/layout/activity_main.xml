@@ -8,12 +8,12 @@
                 android:paddingBottom="@dimen/activity_vertical_margin">
 
 <TextView
-    android:text="This is the main activity."
+    android:text="@string/this_is_the_main_activity"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_centerVertical="true"
     android:layout_centerHorizontal="true"
-    android:textSize="28dip"
+    android:textSize="28sp"
     android:textColor="#ff000000"
     android:id="@+id/textView"/>
 
@@ -22,17 +22,17 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Launch Opaque Activity"
+        android:text="@string/launch_opaque_activity"
         android:id="@+id/opaqueActivityButton"
-        android:textSize="20dip"
+        android:textSize="20sp"
         android:layout_above="@+id/transparentActivityButton"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Launch Transparent Activity"
+        android:text="@string/launch_transparent_activity"
         android:id="@+id/transparentActivityButton"
-        android:textSize="20dip"
+        android:textSize="20sp"
         android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>

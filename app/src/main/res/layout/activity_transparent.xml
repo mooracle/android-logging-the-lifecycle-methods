@@ -9,9 +9,9 @@
                 android:background="#33008800">
 
     <TextView
-        android:text="This is a transparent activity."
+        android:text="@string/this_is_a_transparent_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="28dip"/>
+        android:textSize="28sp"/>
 
 </RelativeLayout>

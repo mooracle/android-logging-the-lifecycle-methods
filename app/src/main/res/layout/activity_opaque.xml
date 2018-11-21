@@ -8,10 +8,10 @@
                 android:background="#ff0088aa">
 
     <TextView
-        android:text="This activity completely covers MainActivity!"
+        android:text="@string/this_activity_completely_covers_mainactivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="28dip"
+        android:textSize="28sp"
         android:textColor="#ffffaa00"
         android:layout_alignParentBottom="true"/>
 
